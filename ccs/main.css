@@ -1,0 +1,228 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 82px;
+}
+
+body {
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f2f2;
+}
+
+nav {
+  background: white;
+  height: 10%;
+  z-index: 1;
+}
+
+nav i {
+  color: black;
+}
+
+nav .fa-bars {
+  padding: 10px;
+}
+
+nav .active {
+  color: #920303;
+}
+
+nav .nav-link {
+  color: black;
+  font-weight: 500;
+}
+
+nav .nav-link:hover {
+  color: #920303;
+}
+
+nav .navbar-right {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .navbar-right .btn-outline-light {
+  background-color: #920303;
+  color: white;
+}
+
+header {
+  color: #f4f2f2;
+}
+
+header h1 {
+  color: black;
+}
+
+header h1 span {
+  background-color: black;
+  color: white;
+}
+
+header p {
+  color: black;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .box .box_text {
+  margin: 15% 1% 2% 3%;
+  padding: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .box h1 span {
+  background-color: black;
+  color: white;
+}
+
+header .box .box_img .carousel-item {
+  height: 400px;
+}
+
+header .box_img {
+  margin: 10% 1% 2% 0%;
+  padding: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  width: 600px;
+}
+
+header .slide .carousel-item {
+  background-position: right;
+  height: 1200px;
+  width: 600px;
+}
+
+header .strap {
+  margin: 2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+header .container .hero_img {
+  background-image: url(../img/restaurant.png);
+  background-position: left;
+  width: 47%;
+  height: 300px;
+  border-radius: 2%;
+}
+
+.btn-outline-light {
+  background-color: #920303;
+  border: #920303;
+}
+
+.container .hero_img .hero_text {
+  width: 400px;
+  height: 450px;
+  top: 100px;
+  left: 125px;
+}
+
+.container .hero_img .hero_text {
+  margin: 10%;
+}
+
+.container .hero_img .hero_text p {
+  color: white;
+  font-size: 12px;
+}
+
+.container .hero_img .hero_text p span {
+  background-color: black;
+}
+
+.container .hero_img2 {
+  background-color: black;
+  background-position: right;
+  width: 47%;
+  height: 300px;
+  border-radius: 2%;
+}
+
+.hero_img2 .phone {
+  margin: -35% 25% 0% 70%;
+  height: 250px;
+  width: 33%;
+  background-position: right;
+}
+
+.container .hero_img2 .hero_text2 p {
+  color: white;
+  font-size: 12px;
+}
+
+.container .hero_img2 .hero_text2 p span {
+  background-color: #920303;
+}
+
+.container .hero_img2 .hero_text2 {
+  margin: 8%;
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 42px;
+  }
+  header p {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  nav {
+    height: 82px;
+  }
+}
+
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 46px;
+  }
+  header p {
+    font-size: 24px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

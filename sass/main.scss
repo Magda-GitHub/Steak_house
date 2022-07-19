@@ -1,0 +1,210 @@
+@import './colors';
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-padding-top: 82px;
+}
+body {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	background-color: $light-gray;
+}
+
+nav {
+	background: $white-color;
+	height: 10%;
+	z-index: 1;
+
+	i {
+		color: $black;
+	}
+
+	.fa-bars {
+		padding: 10px;
+	}
+
+	.active {
+		color: $red;
+	}
+	.nav-link {
+		color: $black;
+		font-weight: 500;
+	}
+	.nav-link:hover {
+		color: $red;
+	}
+
+	.navbar-right {
+		justify-content: space-between;
+	}
+	.navbar-right .btn-outline-light {
+		background-color: $red;
+		color: $white-color;
+	}
+}
+
+header {
+	color: $light-gray;
+
+	h1 {
+		color: $black;
+	}
+	h1 span {
+		background-color: $black;
+		color: $white-color;
+	}
+	p {
+		color: $black;
+	}
+
+	.container {
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.box {
+		display: flex;
+		justify-content: center;
+	}
+
+	.box .box_text {
+		margin: 15% 1% 2% 3%;
+		padding: 0%;
+		justify-content: center;
+	}
+
+	.box h1 span {
+		background-color: $black;
+		color: $white-color;
+	}
+	.box .box_img {
+		.carousel-item {
+			height: 400px;
+		}
+	}
+	.box_img {
+		margin: 10% 1% 2% 0%;
+		padding: 0%;
+		justify-content: center;
+		height: 100px;
+		width: 600px;
+	}
+	.slide {
+		.carousel-item {
+			background-position: right;
+			height: 1200px;
+			width: 600px;
+		}
+	}
+
+	.strap {
+		margin: 2%;
+		display: flex;
+		justify-content: space-evenly;
+	}
+
+	.container .hero_img {
+		background-image: url(../img/restaurant.png);
+		background-position: left;
+		width: 47%;
+		height: 300px;
+		border-radius: 2%;
+	}
+}
+
+.btn-outline-light {
+	background-color: $red;
+	border: $red;
+}
+
+.container .hero_img .hero_text {
+	width: 400px;
+	height: 450px;
+	top: 100px;
+	left: 125px;
+}
+
+.container .hero_img .hero_text {
+	margin: 10%;
+}
+.container .hero_img .hero_text p {
+	color: $white-color;
+	font-size: 12px;
+}
+
+.container .hero_img .hero_text p span {
+	background-color: $black;
+}
+.container .hero_img2 {
+	background-color: $black;
+	background-position: right;
+	width: 47%;
+	height: 300px;
+	border-radius: 2%;
+}
+
+.hero_img2 .phone {
+	margin: -35% 25% 0% 70%;
+	height: 250px;
+	width: 33%;
+	background-position: right;
+}
+
+.container .hero_img2 .hero_text2 p {
+	color: $white-color;
+	font-size: 12px;
+}
+.container .hero_img2 .hero_text2 p span {
+	background-color: $red;
+}
+
+.container .hero_img2 .hero_text2 {
+	margin: 8%;
+}
+
+@media (min-width: 375px) {
+	header {
+		h1 {
+			font-size: 36px;
+		}
+
+		p {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	header {
+		h1 {
+			font-size: 42px;
+		}
+
+		p {
+			font-size: 20px;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	nav {
+		height: 82px;
+	}
+}
+
+@media (min-width: 1200px) {
+	header {
+		h1 {
+			font-size: 46px;
+		}
+		p {
+			font-size: 24px;
+		}
+	}
+}
