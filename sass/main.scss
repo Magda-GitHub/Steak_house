@@ -121,6 +121,7 @@ header {
 .btn-outline-light {
 	background-color: $red;
 	border: $red;
+	font-size: 10px;
 }
 
 .container .hero_img .hero_text {
@@ -136,6 +137,7 @@ header {
 .container .hero_img .hero_text p {
 	color: $white-color;
 	font-size: 12px;
+	margin: 1% 1% 8% ;
 }
 
 .container .hero_img .hero_text p span {
