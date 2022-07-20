@@ -102,12 +102,13 @@ header {
 			width: 600px;
 		}
 	}
-
-	.strap {
-		margin: 2%;
+	.strap .straps{
 		display: flex;
-		justify-content: space-evenly;
+		justify-content:space-between;
+		width: 80%;
+		margin-left: 10%;
 	}
+	
 
 	.container .hero_img {
 		background-image: url(../img/restaurant.png);

@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@types/jquery": "^3.5.14"
+  },
+  "dependencies": {
+    "slick-carousel": "^1.8.1"
+  }
+}

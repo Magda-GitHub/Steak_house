@@ -122,14 +122,15 @@ header .slide .carousel-item {
   width: 600px;
 }
 
-header .strap {
-  margin: 2%;
+header .strap .straps {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
 }
 
 header .container .hero_img {
