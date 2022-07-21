@@ -24,11 +24,10 @@ nav {
 	i {
 		color: $black;
 	}
-
+	
 	.fa-bars {
-		padding: 10px;
+		padding: 10%;
 	}
-
 	.active {
 		color: $red;
 	}
@@ -66,6 +65,8 @@ header {
 	.container {
 		display: flex;
 		justify-content: space-around;
+		width: 100%;
+		height: 100%;
 	}
 
 	.box {
@@ -85,15 +86,16 @@ header {
 	}
 	.box .box_img {
 		.carousel-item {
-			height: 400px;
+			height: 100%;
 		}
 	}
 	.box_img {
 		margin: 10% 1% 2% 0%;
 		padding: 0%;
-		justify-content: center;
-		height: 100px;
-		width: 600px;
+		justify-content:center;
+		background-position: right;
+		height: 100%;
+		width: 50%;
 	}
 	.slide {
 		.carousel-item {
@@ -109,27 +111,19 @@ header {
 		margin-left: 13%;
 	}
 	
-
 	.container .hero_img {
 		background-image: url(../img/restaurant.png);
 		background-position: left;
 		width: 47%;
-		height: 300px;
+		height: 100%;
 		border-radius: 2%;
 	}
-}
-
-.btn-outline-light {
-	background-color: $red;
-	border: $red;
-	font-size: 10px;
-}
 
 .container .hero_img .hero_text {
-	width: 400px;
-	height: 450px;
-	top: 100px;
-	left: 125px;
+	width: 40%;
+	height: 45%;
+	top: 20%;
+	z-index: 1;
 }
 
 .container .hero_img .hero_text {
@@ -137,38 +131,48 @@ header {
 }
 .container .hero_img .hero_text p {
 	color: $white-color;
-	font-size: 12px;
+	font-size: 92%;
 	margin: 1% 1% 8% ;
 }
 
 .container .hero_img .hero_text p span {
 	background-color: $black;
 }
+
+.btn-outline-light {
+	background-color: $red;
+	border: $red;
+	font-size: 10px;
+	z-index: 1;
+}
+}
 .container .hero_img2 {
-	background-color: $black;
-	background-position: right;
+	background-image: url(../img/aplikacja-small.png);
+	background-position: 70% 30%;
 	width: 47%;
-	height: 300px;
+	height: 100;
 	border-radius: 2%;
 }
 
-.hero_img2 .phone {
-	margin: -35% 25% 0% 70%;
-	height: 250px;
-	width: 33%;
-	background-position: right;
+.container .hero_img2 .hero_text2 {
+	margin: 8% 10% 2%;
+	width: 40%;
+	height: 45%;
+	top: 20%;
+	z-index: 1;
 }
 
 .container .hero_img2 .hero_text2 p {
 	color: $white-color;
-	font-size: 12px;
+	font-size: 92%;
+	font-size: 1% 1% 8%;
 }
 .container .hero_img2 .hero_text2 p span {
 	background-color: $red;
 }
 
-.container .hero_img2 .hero_text2 {
-	margin: 8%;
+.icon{
+	margin: 1% 5% 30% 2%;
 }
 
 @media (min-width: 375px) {
@@ -180,8 +184,11 @@ header {
 		p {
 			font-size: 16px;
 		}
+
+	
+		}
 	}
-}
+
 
 @media (min-width: 768px) {
 	header {
@@ -197,7 +204,7 @@ header {
 
 @media (min-width: 992px) {
 	nav {
-		height: 82px;
+		height: 78px;
 	}
 }
 
@@ -209,5 +216,6 @@ header {
 		p {
 			font-size: 24px;
 		}
+
 	}
 }

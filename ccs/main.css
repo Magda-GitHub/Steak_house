@@ -28,7 +28,7 @@ nav i {
 }
 
 nav .fa-bars {
-  padding: 10px;
+  padding: 10%;
 }
 
 nav .active {
@@ -78,6 +78,8 @@ header .container {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  width: 100%;
+  height: 100%;
 }
 
 header .box {
@@ -103,7 +105,7 @@ header .box h1 span {
 }
 
 header .box .box_img .carousel-item {
-  height: 400px;
+  height: 100%;
 }
 
 header .box_img {
@@ -112,8 +114,9 @@ header .box_img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100px;
-  width: 600px;
+  background-position: right;
+  height: 100%;
+  width: 50%;
 }
 
 header .slide .carousel-item {
@@ -137,63 +140,66 @@ header .container .hero_img {
   background-image: url(../img/restaurant.png);
   background-position: left;
   width: 47%;
-  height: 300px;
+  height: 100%;
   border-radius: 2%;
 }
 
-.btn-outline-light {
-  background-color: #920303;
-  border: #920303;
-  font-size: 10px;
+header .container .hero_img .hero_text {
+  width: 40%;
+  height: 45%;
+  top: 20%;
+  z-index: 1;
 }
 
-.container .hero_img .hero_text {
-  width: 400px;
-  height: 450px;
-  top: 100px;
-  left: 125px;
-}
-
-.container .hero_img .hero_text {
+header .container .hero_img .hero_text {
   margin: 10%;
 }
 
-.container .hero_img .hero_text p {
+header .container .hero_img .hero_text p {
   color: white;
-  font-size: 12px;
+  font-size: 92%;
   margin: 1% 1% 8%;
 }
 
-.container .hero_img .hero_text p span {
+header .container .hero_img .hero_text p span {
   background-color: black;
+}
+
+header .btn-outline-light {
+  background-color: #920303;
+  border: #920303;
+  font-size: 10px;
+  z-index: 1;
 }
 
 .container .hero_img2 {
-  background-color: black;
-  background-position: right;
+  background-image: url(../img/aplikacja-small.png);
+  background-position: 70% 30%;
   width: 47%;
-  height: 300px;
+  height: 100;
   border-radius: 2%;
 }
 
-.hero_img2 .phone {
-  margin: -35% 25% 0% 70%;
-  height: 250px;
-  width: 33%;
-  background-position: right;
+.container .hero_img2 .hero_text2 {
+  margin: 8% 10% 2%;
+  width: 40%;
+  height: 45%;
+  top: 20%;
+  z-index: 1;
 }
 
 .container .hero_img2 .hero_text2 p {
   color: white;
-  font-size: 12px;
+  font-size: 92%;
+  font-size: 1% 1% 8%;
 }
 
 .container .hero_img2 .hero_text2 p span {
   background-color: #920303;
 }
 
-.container .hero_img2 .hero_text2 {
-  margin: 8%;
+.icon {
+  margin: 1% 5% 30% 2%;
 }
 
 @media (min-width: 375px) {
@@ -216,7 +222,7 @@ header .container .hero_img {
 
 @media (min-width: 992px) {
   nav {
-    height: 82px;
+    height: 78px;
   }
 }
 
